@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Exhibit</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-stone-900 text-stone-100 font-serif">
+    <header class="py-10 text-center">
+      <h1 class="text-4xl font-bold tracking-wide">Three Places, Three Moods</h1>
+      <p class="mt-2 text-stone-400">A small exhibit of travel photography</p>
+    </header>
+
+    <main class="main-container grid grid-cols-3 gap-6 max-w-5xl mx-auto px-4 pb-12">
+      <section class="card rounded-2xl p-4 bg-stone-800 border border-stone-700">
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg"
+          alt="The Colosseum in Rome seen from outside"
+          class="w-full h-64 object-cover rounded-xl"
+        />
+        <h2 class="subheading mt-4 font-bold text-xl text-amber-300">Colosseo</h2>
+        <p class="description mt-2 text-sm text-stone-300">
+          Nearly two thousand years old and still standing, the arches of Rome's
+          great amphitheatre glow warm in the afternoon light.
+        </p>
+      </section>
+
+      <section class="card rounded-2xl p-4 bg-stone-800 border border-stone-700">
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg"
+          alt="Snow-covered peaks of the Alps under a clear sky"
+          class="w-full h-64 object-cover rounded-xl"
+        />
+        <h2 class="subheading mt-4 font-bold text-xl text-sky-300">The Alps</h2>
+        <p class="description mt-2 text-sm text-stone-300">
+          Quiet ridgelines and cold, thin air. Up here the only sound is the
+          wind moving across the snow.
+        </p>
+      </section>
+
+      <section class="card rounded-2xl p-4 bg-stone-800 border border-stone-700">
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg"
+          alt="Calm sea stretching out to the horizon"
+          class="w-full h-64 object-cover rounded-xl"
+        />
+        <h2 class="subheading mt-4 font-bold text-xl text-teal-300">The Sea</h2>
+        <p class="description mt-2 text-sm text-stone-300">
+          A slow tide and a flat horizon. This one was taken just after sunrise,
+          before the beach filled up.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
